@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { TextInput, View, ViewProps } from 'react-native';
-import styles from './styles';
+import { TextInput, View, ViewProps, StyleSheet } from 'react-native';
 
 export interface DigitsInputProps extends ViewProps {
   /**
@@ -108,5 +107,25 @@ const DigitsInput: React.FC<DigitsInputProps> = ({
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  numberContainer: {
+    height: 48,
+    width: 48,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#E5E5E5',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    textAlign: 'center',
+    marginRight: 8,
+  },
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+});
 
 export default DigitsInput;

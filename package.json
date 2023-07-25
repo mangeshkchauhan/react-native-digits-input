@@ -1,6 +1,6 @@
 {
   "name": "react-native-digits-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A digits input field which can be used for otp inputs in separate boxes.",
   "main": "index.tsx",
   "scripts": {
