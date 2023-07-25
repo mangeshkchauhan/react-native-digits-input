@@ -1,0 +1,26 @@
+{
+  "name": "react-native-digits-input",
+  "version": "1.0.0",
+  "description": "A digits input field which can be used for otp inputs in separate boxes.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": "https://github.com/mangeshkchauhan/react-native-digits-input",
+  "author": "Mangesh Kumar",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "react": "^18.2.0",
+    "react-native": "^0.71.7"
+  }
+}
