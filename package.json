@@ -2,10 +2,9 @@
   "name": "react-native-digits-input",
   "version": "1.0.0",
   "description": "A digits input field which can be used for otp inputs in separate boxes.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "build": "tsc"
   },
   "files": [
@@ -22,5 +21,31 @@
     "typescript": "^5.1.6",
     "react": "^18.2.0",
     "react-native": "^0.71.7"
-  }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "digits",
+    "otp",
+    "input",
+    "field",
+    "box",
+    "separate",
+    "separated",
+    "separate boxes",
+    "separated boxes",
+    "otp input",
+    "otp field",
+    "otp box",
+    "otp separated boxes",
+    "otp separate boxes",
+    "otp separate",
+    "otp separated",
+    "otp input field",
+    "otp input box",
+    "otp input separated boxes",
+    "otp input separate boxes",
+    "otp input separate",
+    "otp input separated"
+  ]
 }
